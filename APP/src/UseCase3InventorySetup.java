@@ -27,6 +27,11 @@ class RoomInventory {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
     }
+
+    // 🔥 ADD THIS METHOD (VERY IMPORTANT FOR UC4)
+    public HashMap<String, Integer> getInventory() {
+        return inventory;
+    }
 }
 
 public class UseCase3InventorySetup {
